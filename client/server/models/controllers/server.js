@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, '../../../../public')));
 
 // Root route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Nonprofit API!');
+    res.send(htmlContent); // Send the updated HTML content
 });
 
 // Sample route  
