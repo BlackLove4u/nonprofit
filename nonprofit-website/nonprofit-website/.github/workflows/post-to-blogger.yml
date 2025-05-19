@@ -1,0 +1,19 @@
+name: Post to Blogger
+on:
+  push:
+    paths:
+      - 'blog/articles/**'
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Convert and Post Article
+      run: |
+        python src/scripts/automate_blogger_post.py
+      env:
+        BLOGGER_CLIENT_ID: ${{ secrets.BLOGGER_CLIENT_ID }}
+        BLOGGER_CLIENT_SECRET: ${{ secrets.BLOGGER_CLIENT_SECRET }}
+        BLOG_ID: ${{ secrets.BLOG_ID }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}

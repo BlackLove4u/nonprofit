@@ -1,0 +1,16 @@
+User's request for the contents of the file: /nonprofit-website/nonprofit-website/public/robots.txt
+
+User's project tree structure indicates that this file is part of a nonprofit website project.
+
+Here are the contents for the robots.txt file:
+
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Allow: /public/
+Allow: /blog/
+Allow: /podcast/
+Allow: /store/
+Allow: /activities/
+Allow: /games/
+Sitemap: https://yourdomain.com/sitemap.xml

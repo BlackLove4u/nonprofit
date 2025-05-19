@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "T-Shirt",
+        "description": "A comfortable cotton t-shirt with our nonprofit logo.",
+        "price": 20.00,
+        "category": "Apparel",
+        "image": "/public/assets/images/tshirt.jpg",
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "name": "Mug",
+        "description": "A ceramic mug perfect for your morning coffee.",
+        "price": 15.00,
+        "category": "Home Goods",
+        "image": "/public/assets/images/mug.jpg",
+        "stock": 50
+    },
+    {
+        "id": 3,
+        "name": "Sticker Pack",
+        "description": "A pack of 5 stickers featuring our nonprofit's designs.",
+        "price": 5.00,
+        "category": "Accessories",
+        "image": "/public/assets/images/stickers.jpg",
+        "stock": 200
+    },
+    {
+        "id": 4,
+        "name": "Educational Workbook",
+        "description": "A workbook filled with activities and information for kids.",
+        "price": 10.00,
+        "category": "Educational",
+        "image": "/public/assets/images/workbook.jpg",
+        "stock": 75
+    },
+    {
+        "id": 5,
+        "name": "Donation Option",
+        "description": "Support our cause with a donation of any amount.",
+        "price": 0.00,
+        "category": "Donation",
+        "image": "/public/assets/images/donate.jpg",
+        "stock": 0
+    }
+]
